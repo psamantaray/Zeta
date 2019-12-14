@@ -25,7 +25,7 @@ public class TestLocationDetails {
         };
     }
 
-    @Test(dataProvider = "dpForLocationDetails", description = "Validate the category list")
+    @Test(dataProvider = "dpForLocationDetails", description = "Test Location Details")
     public void testCategoryList(RequestDTO request) {
         System.out.print("Calling the category api..");
         String uri = API.HOST + API.GET_LOCATION_DETAILS;

@@ -49,11 +49,18 @@ public class RequestDTO {
 
     public void setDescription(String description) {
         this.description = description;
+
     }
+
+
+
 
     private String entityId;
     private String entityType;
     private String testCase;
     private String description;
 
+    public String toString(){
+        return description;
+    }
 }

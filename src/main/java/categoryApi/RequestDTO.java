@@ -35,4 +35,8 @@ public class RequestDTO {
     private String apiKey;
     private String testCase;
     private String description;
+
+    public String toString(){
+        return description;
+    }
 }
