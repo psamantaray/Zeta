@@ -1,6 +1,5 @@
 package categoryApi;
 
-import lombok.*;
 
 public class RequestDTO {
     public RequestDTO(String apiKey, String testCase, String description) {

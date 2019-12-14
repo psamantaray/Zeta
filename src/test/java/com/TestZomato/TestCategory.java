@@ -1,7 +1,6 @@
 package com.TestZomato;
 
 import categoryApi.Category;
-import categoryApi.CategoryDetails;
 import categoryApi.RequestDTO;
 import categoryApi.ResponseDTO;
 import com.API;
